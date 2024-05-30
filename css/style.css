@@ -1,0 +1,213 @@
+@font-face {
+    font-family: head-font;
+    src: url(/fonts/GorditaRegular.eot); /* IE9 Compat Modes */
+    src: url(/fonts/GorditaRegular.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(/fonts/GorditaRegular.woff2) format('woff2'), /* Super Modern Browsers */
+         url(/fonts/GorditaRegular.woff) format('woff'), /* Pretty Modern Browsers */
+         url(/fonts/GorditaRegular.ttf) format('truetype');/* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: title-font;
+    src: url(/fonts/GrovanaRegularRound.eot); /* IE9 Compat Modes */
+    src: url(/fonts/GrovanaRegularRound.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(/fonts/GrovanaRegularRound.woff2) format('woff2'), /* Super Modern Browsers */
+         url(/fonts/GrovanaRegularRound.woff) format('woff'), /* Pretty Modern Browsers */
+         url(/fonts/GrovanaRegularRound.ttf) format('truetype');/* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: head-font;
+    /* background-color: bisque; */
+    /* background-color: #11235A; */
+    /* background-color: #27374D; */
+    /* background-color: #1B2A49; */
+    /* background-color: #1e1e1e; */
+    /* background-color: #B99470; */
+    background-color: #A19078;
+    
+}
+
+.div-offer {
+    background-color: #fcf2e6;
+    /* background-image: url(/images/offer.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat; */
+    color: black;
+    box-shadow: 0px -2px 4px dimgray, 0px 2px 4px dimgray;
+    height: 77vh;
+}
+
+.div-offer p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.div-contact {
+    margin: 2% 15% 8% 15%; 
+    /* box-shadow: 3px 3px 4px grey;  */
+    box-shadow: 4px 4px 5px dimgrey; 
+    /* background-color: #FAEBD7; */
+    /* background-color: #B5A58D; */
+    /* background-color: white; */
+    background-color: #1e1e1e;
+}
+
+.div-contact2 {
+    padding: 2% 10% 0% 10%; 
+    /* box-shadow: 3px 3px 4px grey;  */
+    /* box-shadow: 4px 4px 5px dimgrey;  */
+    /* background-color: #FAEBD7; */
+    /* background-color: #B5A58D; */
+    /* background-color: white; */
+    background-color: black;
+    color: white;
+    box-shadow: 0px -6px 6px black;
+}
+
+.div-footer {
+    background-color: #1e1e1e; 
+    color: white; 
+    /* box-shadow: 0px -6px 6px gray; */
+}
+
+.gen-layout {
+    margin: 0 auto; 
+    padding: 0; 
+    max-width: 100vw;
+}
+
+.head-row {
+    background-color: black; 
+    height: 75vh;
+    box-shadow: 0 3px 5px black;
+}
+
+.head-col2 {
+    text-align: center;
+    color: bisque;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.head-p {
+    margin-top: 80px; 
+    font-size: 2rem; 
+    font-family: head-font;
+}
+
+.div-about {
+    padding: 0 15% 5% 15%; 
+}
+
+.div-about p {
+    font-size: 1.2rem; 
+    text-align: justify;
+    /* text-shadow: 2px 2px 3px black; */
+}
+
+.about-img {
+    /* width: 250px; 
+    height: 240px;  */
+    border-radius: 20px; 
+    box-shadow: 5px 5px 7px black;
+}
+
+.about-title {
+    padding: 30px 0; 
+    font-weight: bold; 
+    text-shadow: 3px 3px 5px black;
+}
+
+.offer-content p {
+    font-size: 1.2rem; 
+    text-align: justify; 
+    color: white; 
+    padding-bottom: 1%;
+    text-shadow: 3px 3px 5px black;
+}
+
+.div-pricing {
+    padding: 2% 15% 5% 15%
+}
+
+.div-pricing p {
+    font-size: 1.2rem; 
+    text-align: justify;
+    color: black;
+}
+
+.div-card {
+    /* border-radius: 15px; 
+    background-color: #FAEBD7; 
+    box-shadow: 5px 5px 7px grey;  */
+    padding: 30px 70px 20px 70px;
+}
+
+.div-card-title {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    /* font-family: cooper black;  */
+    text-shadow: 1px 1px 2px lightgray;
+    padding-bottom: 10px;
+}
+
+.div-card-content {
+    font-size: 1.2rem; 
+    /* text-align: justify;  */
+    /* font-weight: bold; */
+    text-shadow: 1px 1px 2px gainsboro;
+}
+
+.nav a {
+    color: black;
+    font-size: 1.3rem;
+    font-family: ink free;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px gray;
+}
+
+.course-card {
+    width: 18rem; 
+    box-shadow: 3px 3px 5px #C0C0C0; 
+    margin-right: 2%; 
+    margin-bottom: 2%;
+    background-color: bisque;
+}
+
+.course-card .card-body {
+    text-align: left;
+    background-color: #D2B48C;
+}
+
+.contact-field {
+    width: 90%; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none;
+    /* border-bottom: 2px solid black; */
+    border-radius: none;
+    font-family: head-font;
+    font-size: 1rem;
+    margin: 2% 0;
+    box-shadow: 4px 4px 6px black;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #FFF5EE;
+}
+
+.send-button {
+    background-color: #A19078; 
+    color: black; 
+    font-size: 1.2rem; 
+    font-weight: bold;
+    font-family: head-font; 
+    box-shadow: 3px 3px 5px #2F4F4F;
+}
+
+
+

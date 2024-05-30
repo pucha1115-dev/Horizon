@@ -1,0 +1,2 @@
+2 #C4B69E, 4 #8F8A7B potential white font, 5 #5C5950 with white font, 9 #A69174, 10 #A19078 fav
+remove text shadow
